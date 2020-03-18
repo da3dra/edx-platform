@@ -33,13 +33,15 @@ class TabsEditingDescriptorTestCase(unittest.TestCase):
                     'scss': [
                         resource_string(
                             __name__,
-                            '../../test_files/test_tabseditingdescriptor.scss'
+                            'test_files/test_tabseditingdescriptor.scss'
+                            #'../../test_files/test_tabseditingdescriptor.scss'
                         )
                     ],
                     'css': [
                         resource_string(
                             __name__,
-                            '../../test_files/test_tabseditingdescriptor.css'
+                            'test_files/test_tabseditingdescriptor.css'
+                            #'../../test_files/test_tabseditingdescriptor.css'
                         )
                     ]
                 }
